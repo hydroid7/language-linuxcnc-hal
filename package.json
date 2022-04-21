@@ -1,0 +1,16 @@
+{
+  "name": "language-linuxcnc-hal",
+  "version": "0.0.1",
+  "description": "LinuxCNC hal script syntax highlighting.",
+  "keywords": [
+    "language",
+    "grammar",
+    "hal",
+    "linuxcnc"
+  ],
+  "repository": "https://github.com/atom/language-linuxcnc-hal",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

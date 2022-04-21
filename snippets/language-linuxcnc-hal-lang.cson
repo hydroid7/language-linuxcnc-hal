@@ -1,0 +1,22 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-javascript/blob/master/snippets/javascript.cson
+
+'.source.linuxcnc-hal':
+  'Documentation':
+    'prefix': 'doc'
+    'body': '## ${1:method} - ${2:description}'
+  'New net':
+    'prefix': 'net'
+    'body': 'net ${1:name} ${2:=>} ${3:signal-1}'
+  'New Threads declaration':
+    'prefix': 'thread'
+    'body': 'loadrt  threads name1=${1:name} period1=${2:period} ${3:fp1=1}'
+  'Add to thread':
+    'prefix': 'addf',
+    'body': 'addf ${1:component} ${2:thread}'
+  'Set param or signal':
+    'prefix': 'setp',
+    'body': 'setp ${1:component} ${2:value}'
+  'Load realtime component':
+    'prefix': 'loadrt',
+    'body': 'loadrt ${1:component} names=${2:names}'

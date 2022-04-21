@@ -1,0 +1,34 @@
+# If this is your first time writing a language grammar, check out:
+#   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
+
+'scopeName': 'source.linuxcnc-hal'
+'name': 'LinuxcncHal'
+'fileTypes': [
+  'hal'
+]
+'patterns': [
+  {
+    'match': '#.*'
+    'name': 'comment.line'
+  },
+  {
+    'match': '(net|setp|loadrt|loadusr|addf)',
+    'name': 'keyword.control'
+  },
+  {
+    'match': '(<=|=>|=)',
+    'name': 'keyword.operator'
+  },
+  {
+    'match': '(TRUE|FALSE)',
+    'name': 'constant.language'
+  },
+  {
+    'match': '( |\t)[0-9|\.]+',
+    'name': 'constant.numeric'
+  },
+  {
+    'match': '\\[.*\\][A-Z|_|0-9]+',
+    'name': 'support.other'
+  }
+]
