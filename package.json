@@ -8,7 +8,7 @@
     "hal",
     "linuxcnc"
   ],
-  "repository": "https://github.com/atom/language-linuxcnc-hal",
+  "repository": "https://github.com/hydroid7/language-linuxcnc-hal",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
